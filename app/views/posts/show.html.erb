@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html {
+    min-height: 100%; /* This is required to ensure that the gradient stretches across the whole page */
+}
+ 
+body { #sky blue
+    background: -webkit-linear-gradient(#33C7FF, #D2F3FF); 
+    background: -o-linear-gradient(#33C7FF, #D2F3FF); 
+    background: -moz-linear-gradient(#33C7FF, #D2F3FF); 
+    background: linear-gradient(#33C7FF, #D2F3FF);  
+    background-color: #93B874; 
+
+}
+</style>
+</head>
+<body>
+
+<p id="notice"><%= notice %></p>
+
+<h1> <%= @post.title %> </h1>
+<p> <%= @post.body %> <p>
+	<h3> Author: <%= link_to @post.author.first_and_last, author_path(@post.author)%> <br>
+            Posted at:  <%= @post.created_at%> </h3> <br>
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
+
+
+</body>
+</html>
