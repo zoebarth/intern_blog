@@ -58,5 +58,5 @@ Create a Rails application to allow multiple authors to create blog posts on a s
 
 ## Super Stretch Goal
   - Add user registration and login
-    > where user's are Authors
-    > check out the Devise gem for this
+    - where user's are Authors
+    - check out the Devise gem for this
