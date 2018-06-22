@@ -7,7 +7,7 @@ Create a Rails application to allow multiple authors to create blog posts on a s
     - title of the blog post
     - first 100 words of the post body
     - Author name
-    - date blog was posted
+    - timestamp blog was posted
   - title should link to the post show page
   - Author name should link to the author's show page
   - A link on the page to create a new blog post
