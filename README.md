@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Intern Blog Project
 Create a Rails application to allow multiple authors to create blog posts on a single website.  The following pages should be present on the website.
 
@@ -60,3 +61,29 @@ Create a Rails application to allow multiple authors to create blog posts on a s
   - Add user registration and login
     - where user's are Authors
     - check out the Devise gem for this
+=======
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+>>>>>>> f872e5e... version 1
